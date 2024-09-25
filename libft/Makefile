@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: dde-carv <dde-carv@student.42.fr>          +#+  +:+       +#+         #
+#    By: luiribei <luiribei@student.42lisboa.com    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2024/04/12 15:04:36 by dde-carv          #+#    #+#              #
-#    Updated: 2024/05/07 16:03:30 by dde-carv         ###   ########.fr        #
+#    Created: 2024/09/25 16:07:16 by luiribei          #+#    #+#              #
+#    Updated: 2024/09/25 16:07:16 by luiribei         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -69,10 +69,13 @@ FTLST_DIR		=	$(SRC_DIR)ft_lst/ft_lstadd_back.c \
 					$(SRC_DIR)ft_lst/ft_lstnew.c \
 					$(SRC_DIR)ft_lst/ft_lstsize.c
 
-FTPRINTF_DIR	=	$(SRC_DIR)ft_printf/ft_printf.c \
-					$(SRC_DIR)ft_printf/ft_digit.c \
-					$(SRC_DIR)ft_printf/ft_text.c \
-					$(SRC_DIR)ft_printf/ft_conversions.c
+FTPRINTF_DIR	=	$(SRC_DIR)ft_printf/ft_print_char.c \
+					$(SRC_DIR)ft_printf/ft_print_digits.c \
+					$(SRC_DIR)ft_printf/ft_print_ptr.c \
+					$(SRC_DIR)ft_printf/ft_print_str.c \
+					$(SRC_DIR)ft_printf/ft_print_unsigned.c \
+					$(SRC_DIR)ft_printf/ft_print_upper_digits.c \
+					$(SRC_DIR)ft_printf/ft_printf.c \
 
 GNL_DIR			=	$(SRC_DIR)get_next_line/get_next_line.c \
 					$(SRC_DIR)get_next_line/get_next_line_utils.c
